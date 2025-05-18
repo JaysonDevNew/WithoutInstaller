@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.6" version="22.6" Modules="simple" RootPath="." Language="en" Id="{8CBB953B-0329-40DA-9222-4280FC73E5F5}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_APP_FILE" Value="[#CapstoneProject.exe]"/>
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="Manufacturer" Value="CodeNine"/>
+    <ROW Property="ProductCode" Value="1033:{CA8286FF-7CBA-4240-A0F1-16DED459396E} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="GymXFit Installer"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{61DACFFD-27FA-4E16-957E-B3D445C2B97C}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="AnyCPU_Debug:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="AnyCPU_Debug:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="AnyCPU_Debug:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="AnyCPU_Debug:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="AnyCPU_Debug:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="AnyCPU_Debug:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="AnyCPU_Debug:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="AnyCPU_Debug:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="AnyCPU_Debug:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="AnyCPU_Debug:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{2D3F0CA0-0122-44FF-9C28-23550A665F84}"/>
+    <ROW Component="ProductInformation" Value="{02C48688-2EDD-4E07-B6E2-95360C1724B3}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AForge.Imaging.dll" ComponentId="{097CFCD1-0734-4E88-8DB9-05B43E9A6F5C}" Directory_="APPDIR" Attributes="0" KeyPath="AForge.Imaging.dll"/>
+    <ROW Component="AForge.Math.dll" ComponentId="{1A6CEE59-3083-4C3C-8B29-B83E771C944C}" Directory_="APPDIR" Attributes="0" KeyPath="AForge.Math.dll"/>
+    <ROW Component="AForge.Video.DirectShow.dll" ComponentId="{5BFDBB65-4C16-4705-941C-20A1A3C8025F}" Directory_="APPDIR" Attributes="0" KeyPath="AForge.Video.DirectShow.dll"/>
+    <ROW Component="AForge.Video.dll" ComponentId="{B2E6468A-C27E-4106-8DE4-40E20E3D324E}" Directory_="APPDIR" Attributes="0" KeyPath="AForge.Video.dll"/>
+    <ROW Component="AForge.dll" ComponentId="{640CC230-717B-4203-8D36-112A016F33F4}" Directory_="APPDIR" Attributes="0" KeyPath="AForge.dll"/>
+    <ROW Component="APPDIR" ComponentId="{2D3F0CA0-0122-44FF-9C28-23550A665F84}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="BouncyCastle.Cryptography.dll" ComponentId="{3E17243C-1747-486B-B983-E271AB538154}" Directory_="APPDIR" Attributes="0" KeyPath="BouncyCastle.Cryptography.dll"/>
+    <ROW Component="Bunifu.Licensing.dll" ComponentId="{1F558180-85A5-484F-A0DE-7E3669919A0E}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.Licensing.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuButton.dll" ComponentId="{415A3E8F-7DEA-4082-AFF6-56650D5F875B}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuDataGridView.dll" ComponentId="{84D5A035-2449-4BAE-8818-BD61D8E8ECE9}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuDataGridView.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuDatePicker.dll" ComponentId="{8DB453DB-CC79-4AF8-B876-868379536214}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuDatePicker.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuFormDock.dll" ComponentId="{44486F9C-362C-4EF6-9DEF-74C98EF27324}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuFormDock.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuGroupBox.dll" ComponentId="{7D0E5FFB-CB87-4517-9F40-B9C7DCE0C301}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuGroupBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuLabel.dll" ComponentId="{A5336499-7F95-41C4-BF18-CC0F4363F385}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuLabel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuPanel.dll" ComponentId="{423A6C18-9FA4-4274-BA5D-79AAF2A53BB4}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuPanel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuPictureBox.dll" ComponentId="{40F891B2-2536-4685-827E-4C88ADB28E17}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuPictureBox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuProgressBar.dll" ComponentId="{0C035465-B692-4A91-AC02-50EC6BAE74B0}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuProgressBar.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuShadowPanel.dll" ComponentId="{7DC1D5AA-B1CE-4FEB-8264-E8BCAC7069B1}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuShadowPanel.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuShapes.dll" ComponentId="{2BB8FC96-750B-42C2-BC94-67F425E432B6}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuShapes.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuSlider.dll" ComponentId="{D7C662A5-4035-48CE-8BD4-92FE0BFFB012}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuSlider.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuTextbox.dll" ComponentId="{5E3892DF-9B00-4DB5-9498-C9195247C82D}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Component="Bunifu.UI.WinForms.BunifuTransition.dll" ComponentId="{B7609E43-75A0-4AC7-A71D-5DA5D777A94D}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu.UI.WinForms.BunifuTransition.dll"/>
+    <ROW Component="Bunifu_UI_v1.52.dll" ComponentId="{035947BE-3F92-4A10-A80A-807CFB802ADC}" Directory_="APPDIR" Attributes="0" KeyPath="Bunifu_UI_v1.52.dll"/>
+    <ROW Component="CapstoneProject.exe" ComponentId="{2F233005-772A-4DC0-B444-929AA70E0739}" Directory_="APPDIR" Attributes="0" KeyPath="CapstoneProject.exe"/>
+    <ROW Component="CapstoneProject.exe.config" ComponentId="{FBC5F9AA-F0B7-42DA-8FAB-3A419388DD41}" Directory_="APPDIR" Attributes="0" KeyPath="CapstoneProject.exe.config" Type="0"/>
+    <ROW Component="ClosedXML.Parser.dll" ComponentId="{0CD58B89-08EF-4C1F-BC93-0E83548A8D1E}" Directory_="APPDIR" Attributes="0" KeyPath="ClosedXML.Parser.dll"/>
+    <ROW Component="ClosedXML.dll" ComponentId="{40394436-7DE8-4ACF-9BB6-5C7C6C77F31B}" Directory_="APPDIR" Attributes="0" KeyPath="ClosedXML.dll"/>
+    <ROW Component="DocumentFormat.OpenXml.Framework.dll" ComponentId="{3517BF93-998F-42F1-94E2-D29628836C60}" Directory_="APPDIR" Attributes="0" KeyPath="DocumentFormat.OpenXml.Framework.dll"/>
+    <ROW Component="DocumentFormat.OpenXml.dll" ComponentId="{9AA9B2C1-64A9-428A-91A0-E57968FEF4E0}" Directory_="APPDIR" Attributes="0" KeyPath="DocumentFormat.OpenXml.dll"/>
+    <ROW Component="ExcelNumberFormat.dll" ComponentId="{C9CE2C50-1240-4850-8268-7B1A919933CD}" Directory_="APPDIR" Attributes="0" KeyPath="ExcelNumberFormat.dll"/>
+    <ROW Component="FontAwesome.Sharp.dll" ComponentId="{04B532D2-9F6F-411F-99C8-BDF30B1A2CD5}" Directory_="APPDIR" Attributes="0" KeyPath="FontAwesome.Sharp.dll"/>
+    <ROW Component="Google.Protobuf.dll" ComponentId="{8121D965-24C9-48C2-9623-9F1263FC7014}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Protobuf.dll"/>
+    <ROW Component="Guna.UI.dll" ComponentId="{94BF6F32-77CB-4A1D-9C1C-931186E839C6}" Directory_="APPDIR" Attributes="0" KeyPath="Guna.UI.dll"/>
+    <ROW Component="K4os.Compression.LZ4.Streams.dll" ComponentId="{4CF9734C-6A99-4A72-8921-D05B273BF117}" Directory_="APPDIR" Attributes="0" KeyPath="K4os.Compression.LZ4.Streams.dll"/>
+    <ROW Component="K4os.Compression.LZ4.dll" ComponentId="{AEDCE4A6-618E-4547-9F6F-4BD2BC89C7E5}" Directory_="APPDIR" Attributes="0" KeyPath="K4os.Compression.LZ4.dll"/>
+    <ROW Component="K4os.Hash.xxHash.dll" ComponentId="{CF87A862-287E-48E3-9147-E6C83811C960}" Directory_="APPDIR" Attributes="0" KeyPath="K4os.Hash.xxHash.dll"/>
+    <ROW Component="Microsoft.Bcl.AsyncInterfaces.dll" ComponentId="{2AF8DD1B-B442-4280-9C1F-333B527B15A3}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Component="Microsoft.Bcl.HashCode.dll" ComponentId="{258FF4D5-D3B9-409D-9FF0-8DAD9189B2DD}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Bcl.HashCode.dll"/>
+    <ROW Component="Microsoft.Extensions.DependencyInjection.Abstractions.dll" ComponentId="{D0346103-350A-445C-8A11-9CA4B5B9FE5B}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Component="Microsoft.Extensions.Logging.Abstractions.dll" ComponentId="{FA86A62E-F4E5-4DC5-A483-C774B6DB9F0D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Component="Microsoft.Office.Interop.Excel.dll" ComponentId="{81F87CBF-2E21-4F6D-8BCB-FE4FCE206492}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Office.Interop.Excel.dll"/>
+    <ROW Component="Microsoft.VisualBasic.dll" ComponentId="{6FAB1676-BE6D-4115-A839-CB8A3D0C421E}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualBasic.dll"/>
+    <ROW Component="MySql.Data.dll" ComponentId="{DB031C8C-F601-40A5-9A74-69F4D9AE8F54}" Directory_="APPDIR" Attributes="0" KeyPath="MySql.Data.dll"/>
+    <ROW Component="MySqlBackup.dll" ComponentId="{FFA298A2-A5A5-4355-BFBA-05A132A2D524}" Directory_="APPDIR" Attributes="0" KeyPath="MySqlBackup.dll"/>
+    <ROW Component="MySqlConnector.dll" ComponentId="{4F5B5766-2FD5-4616-8428-35E8E8CD70CC}" Directory_="APPDIR" Attributes="0" KeyPath="MySqlConnector.dll"/>
+    <ROW Component="PresentationCore.dll" ComponentId="{FF030CE6-4386-4BBC-BCBD-2CDB2C029CF1}" Directory_="APPDIR" Attributes="0" KeyPath="PresentationCore.dll"/>
+    <ROW Component="PresentationFramework.dll" ComponentId="{E272254C-BEB6-46B3-B370-0C5119498D7A}" Directory_="APPDIR" Attributes="0" KeyPath="PresentationFramework.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{02C48688-2EDD-4E07-B6E2-95360C1724B3}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="RBush.dll" ComponentId="{DA6CAD5D-287D-4842-92A9-3FFA78C01E10}" Directory_="APPDIR" Attributes="0" KeyPath="RBush.dll"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{FF9B5A86-3026-47A4-A993-1B39CD0824B9}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SixLabors.Fonts.dll" ComponentId="{A90D4272-0C5D-400D-9B01-64217622F7C4}" Directory_="APPDIR" Attributes="0" KeyPath="SixLabors.Fonts.dll"/>
+    <ROW Component="System.Buffers.dll" ComponentId="{13615DDF-720B-4B3E-A53D-FE662F777D2D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Buffers.dll"/>
+    <ROW Component="System.Configuration.ConfigurationManager.dll" ComponentId="{DFA8D0D0-4C5A-4BDC-A1CE-A59F8981BCD9}" Directory_="APPDIR" Attributes="0" KeyPath="System.Configuration.ConfigurationManager.dll"/>
+    <ROW Component="System.Configuration.dll" ComponentId="{37073F81-312F-4B39-8E7B-C59EA54EBE3D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Configuration.dll"/>
+    <ROW Component="System.Core.dll" ComponentId="{2077DED8-8607-4C53-B18A-CCBB94A96F11}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{5C3A0C28-4BAB-4B6B-97F0-EDDD3837673C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.SqlXml.dll" ComponentId="{6AE17D42-CA36-4BF4-8E7C-29CFA191CCB8}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.SqlXml.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{125AD1F8-CBD3-4EEC-82CF-1B8B89A2C26B}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{334EC74F-E176-41A2-B952-8F7E95F8F545}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Design.dll" ComponentId="{530F67EA-5F45-4CFB-B190-74217D256F67}" Directory_="APPDIR" Attributes="0" KeyPath="System.Design.dll"/>
+    <ROW Component="System.Diagnostics.DiagnosticSource.dll" ComponentId="{EE5EA4C7-FE2C-4055-AD3A-DEE37B640F89}" Directory_="APPDIR" Attributes="0" KeyPath="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{8A622C7E-E304-42FB-A537-C57FEAEEFF20}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.IO.Pipelines.dll" ComponentId="{29C4F3C7-FC38-4E9E-9225-3308F66DCC87}" Directory_="APPDIR" Attributes="0" KeyPath="System.IO.Pipelines.dll"/>
+    <ROW Component="System.Management.dll" ComponentId="{03593435-7305-4108-B2F9-4B7EE484F6B9}" Directory_="APPDIR" Attributes="0" KeyPath="System.Management.dll"/>
+    <ROW Component="System.Memory.dll" ComponentId="{D5C4BCBB-4B19-4D37-98B6-386349F119BD}" Directory_="APPDIR" Attributes="0" KeyPath="System.Memory.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{0C69C00C-74A6-405D-B6B8-6E72075E8221}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Numerics.Vectors.dll" ComponentId="{93C882F6-0E0B-46B2-8949-3E78483BA2F3}" Directory_="APPDIR" Attributes="0" KeyPath="System.Numerics.Vectors.dll"/>
+    <ROW Component="System.Numerics.dll" ComponentId="{D0232868-7DB1-4FD4-8E31-07EFB25913A0}" Directory_="APPDIR" Attributes="0" KeyPath="System.Numerics.dll"/>
+    <ROW Component="System.Runtime.CompilerServices.Unsafe.dll" ComponentId="{FDF94E6C-D0A8-41FE-BB83-F9981DB90BF3}" Directory_="APPDIR" Attributes="0" KeyPath="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Component="System.Threading.Tasks.Extensions.dll" ComponentId="{5F41FACA-2878-4302-AD3F-CEF06D3FCC96}" Directory_="APPDIR" Attributes="0" KeyPath="System.Threading.Tasks.Extensions.dll"/>
+    <ROW Component="System.Transactions.dll" ComponentId="{3134FE45-BC24-4F2D-86D0-EDA8DD15A80A}" Directory_="APPDIR" Attributes="0" KeyPath="System.Transactions.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{54DB2FE5-6CC1-4CD4-B1BF-C8C3CBA4619C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xaml.dll" ComponentId="{3612E457-D588-4C5B-A04D-FB713389D3A6}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xaml.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{C3017D62-B71A-4A7A-AF2B-3A5A3CFCF0D7}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{744C0B62-D299-45EA-AC79-78DFB5C4CA30}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{C2C2E6EB-F205-4B09-B79F-4709BF4C7114}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="WindowsBase.dll" ComponentId="{111015D7-9DED-41E2-B9E1-8B72335361F2}" Directory_="APPDIR" Attributes="0" KeyPath="WindowsBase.dll"/>
+    <ROW Component="ZstdSharp.dll" ComponentId="{8C73DBAE-9CAB-48C8-A5F3-1D16F96ACE75}" Directory_="APPDIR" Attributes="0" KeyPath="ZstdSharp.dll"/>
+    <ROW Component="netstandard.dll" ComponentId="{BE42090D-5672-4274-A275-A683CE047D97}" Directory_="APPDIR" Attributes="0" KeyPath="netstandard.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Bunifu.UI.WinForms.BunifuTransition.dll" Component_="Bunifu.UI.WinForms.BunifuTransition.dll" FileName="BUNIFU~1.DLL|Bunifu.UI.WinForms.BunifuTransition.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuTransition.dll" SelfReg="false"/>
+    <ROW File="CapstoneProject.exe" Component_="CapstoneProject.exe" FileName="CAPSTO~1.EXE|Capstone Project.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Capstone Project.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="BouncyCastle.Cryptography.dll" Component_="BouncyCastle.Cryptography.dll" FileName="BOUNCY~1.DLL|BouncyCastle.Cryptography.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll" SelfReg="false"/>
+    <ROW File="CapstoneProject.exe.config" Component_="CapstoneProject.exe.config" FileName="CAPSTO~1.CON|Capstone Project.exe.config" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Capstone Project.exe.config" SelfReg="false"/>
+    <ROW File="AForge.Video.dll" Component_="AForge.Video.dll" FileName="AFORGE~1.DLL|AForge.Video.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuGroupBox.dll" Component_="Bunifu.UI.WinForms.BunifuGroupBox.dll" FileName="BUNIFU~2.DLL|Bunifu.UI.WinForms.BunifuGroupBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuGroupBox.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuDatePicker.dll" Component_="Bunifu.UI.WinForms.BunifuDatePicker.dll" FileName="BUNIFU~3.DLL|Bunifu.UI.WinForms.BunifuDatePicker.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuDatePicker.dll" SelfReg="false"/>
+    <ROW File="SixLabors.Fonts.dll" Component_="SixLabors.Fonts.dll" FileName="SIXLAB~1.DLL|SixLabors.Fonts.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll" SelfReg="false"/>
+    <ROW File="AForge.Video.DirectShow.dll" Component_="AForge.Video.DirectShow.dll" FileName="AFORGE~2.DLL|AForge.Video.DirectShow.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll" SelfReg="false"/>
+    <ROW File="AForge.Imaging.dll" Component_="AForge.Imaging.dll" FileName="AFORGE~3.DLL|AForge.Imaging.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll" SelfReg="false"/>
+    <ROW File="AForge.Math.dll" Component_="AForge.Math.dll" FileName="AFORGE~4.DLL|AForge.Math.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll" SelfReg="false"/>
+    <ROW File="AForge.dll" Component_="AForge.dll" FileName="AForge.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\AForge.2.2.5\lib\AForge.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuShapes.dll" Component_="Bunifu.UI.WinForms.BunifuShapes.dll" FileName="BUNIFU~4.DLL|Bunifu.UI.WinForms.BunifuShapes.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuShapes.dll" SelfReg="false"/>
+    <ROW File="Bunifu.Licensing.dll" Component_="Bunifu.Licensing.dll" FileName="BUNIFU~5.DLL|Bunifu.Licensing.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.Licensing.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.HashCode.dll" Component_="Microsoft.Bcl.HashCode.dll" FileName="MICROS~1.DLL|Microsoft.Bcl.HashCode.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuButton.dll" Component_="Bunifu.UI.WinForms.BunifuButton.dll" FileName="BUNIFU~6.DLL|Bunifu.UI.WinForms.BunifuButton.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuButton.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuFormDock.dll" Component_="Bunifu.UI.WinForms.BunifuFormDock.dll" FileName="BUNIFU~7.DLL|Bunifu.UI.WinForms.BunifuFormDock.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuFormDock.dll" SelfReg="false"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~1.DLL|System.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuDataGridView.dll" Component_="Bunifu.UI.WinForms.BunifuDataGridView.dll" FileName="BUNIFU~8.DLL|Bunifu.UI.WinForms.BunifuDataGridView.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuDataGridView.dll" SelfReg="false"/>
+    <ROW File="System.Numerics.dll" Component_="System.Numerics.dll" FileName="SYSTEM~2.DLL|System.Numerics.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Numerics.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuLabel.dll" Component_="Bunifu.UI.WinForms.BunifuLabel.dll" FileName="BUNIFU~9.DLL|Bunifu.UI.WinForms.BunifuLabel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuLabel.dll" SelfReg="false"/>
+    <ROW File="ExcelNumberFormat.dll" Component_="ExcelNumberFormat.dll" FileName="EXCELN~1.DLL|ExcelNumberFormat.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuPanel.dll" Component_="Bunifu.UI.WinForms.BunifuPanel.dll" FileName="BUNIF~10.DLL|Bunifu.UI.WinForms.BunifuPanel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuPanel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuPictureBox.dll" Component_="Bunifu.UI.WinForms.BunifuPictureBox.dll" FileName="BUNIF~11.DLL|Bunifu.UI.WinForms.BunifuPictureBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuPictureBox.dll" SelfReg="false"/>
+    <ROW File="MySql.Data.dll" Component_="MySql.Data.dll" FileName="MYSQLD~1.DLL|MySql.Data.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\MySql.Data.9.1.0\lib\net462\MySql.Data.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll" FileName="MICROS~2.DLL|Microsoft.Extensions.DependencyInjection.Abstractions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Microsoft.Extensions.DependencyInjection.Abstractions.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuProgressBar.dll" Component_="Bunifu.UI.WinForms.BunifuProgressBar.dll" FileName="BUNIF~12.DLL|Bunifu.UI.WinForms.BunifuProgressBar.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuProgressBar.dll" SelfReg="false"/>
+    <ROW File="MySqlConnector.dll" Component_="MySqlConnector.dll" FileName="MYSQLC~1.DLL|MySqlConnector.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\MySqlConnector.2.4.0\lib\net471\MySqlConnector.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuShadowPanel.dll" Component_="Bunifu.UI.WinForms.BunifuShadowPanel.dll" FileName="BUNIF~13.DLL|Bunifu.UI.WinForms.BunifuShadowPanel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuShadowPanel.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuSlider.dll" Component_="Bunifu.UI.WinForms.BunifuSlider.dll" FileName="BUNIF~14.DLL|Bunifu.UI.WinForms.BunifuSlider.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuSlider.dll" SelfReg="false"/>
+    <ROW File="System.Diagnostics.DiagnosticSource.dll" Component_="System.Diagnostics.DiagnosticSource.dll" FileName="SYSTEM~3.DLL|System.Diagnostics.DiagnosticSource.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll" SelfReg="false"/>
+    <ROW File="FontAwesome.Sharp.dll" Component_="FontAwesome.Sharp.dll" FileName="FONTAW~1.DLL|FontAwesome.Sharp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll" SelfReg="false"/>
+    <ROW File="System.IO.Pipelines.dll" Component_="System.IO.Pipelines.dll" FileName="SYSTEM~4.DLL|System.IO.Pipelines.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll" SelfReg="false"/>
+    <ROW File="Bunifu.UI.WinForms.BunifuTextbox.dll" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll" FileName="BUNIF~15.DLL|Bunifu.UI.WinForms.BunifuTextbox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu.UI.WinForms.BunifuTextbox.dll" SelfReg="false"/>
+    <ROW File="Bunifu_UI_v1.52.dll" Component_="Bunifu_UI_v1.52.dll" FileName="BUNIF~16.DLL|Bunifu_UI_v1.52.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Bunifu_UI_v1.52.dll" SelfReg="false"/>
+    <ROW File="K4os.Compression.LZ4.dll" Component_="K4os.Compression.LZ4.dll" FileName="K4OSCO~1.DLL|K4os.Compression.LZ4.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll" SelfReg="false"/>
+    <ROW File="ClosedXML.dll" Component_="ClosedXML.dll" FileName="CLOSED~1.DLL|ClosedXML.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\ClosedXML.0.104.2\lib\netstandard2.0\ClosedXML.dll" SelfReg="false"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" SelfReg="false"/>
+    <ROW File="ClosedXML.Parser.dll" Component_="ClosedXML.Parser.dll" FileName="CLOSED~2.DLL|ClosedXML.Parser.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\ClosedXML.Parser.1.2.0\lib\netstandard2.0\ClosedXML.Parser.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.dll" Component_="DocumentFormat.OpenXml.dll" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\DocumentFormat.OpenXml.3.1.1\lib\net46\DocumentFormat.OpenXml.dll" SelfReg="false"/>
+    <ROW File="DocumentFormat.OpenXml.Framework.dll" Component_="DocumentFormat.OpenXml.Framework.dll" FileName="DOCUME~2.DLL|DocumentFormat.OpenXml.Framework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\DocumentFormat.OpenXml.Framework.3.1.1\lib\net46\DocumentFormat.OpenXml.Framework.dll" SelfReg="false"/>
+    <ROW File="Google.Protobuf.dll" Component_="Google.Protobuf.dll" FileName="GOOGLE~1.DLL|Google.Protobuf.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll" SelfReg="false"/>
+    <ROW File="PresentationCore.dll" Component_="PresentationCore.dll" FileName="PRESEN~1.DLL|PresentationCore.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationCore.dll" SelfReg="false"/>
+    <ROW File="Guna.UI.dll" Component_="Guna.UI.dll" FileName="GUNAUI~1.DLL|Guna.UI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Guna.UI.dll" SelfReg="false"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~5.DLL|System.Data.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" SelfReg="false"/>
+    <ROW File="System.Xaml.dll" Component_="System.Xaml.dll" FileName="SYSTEM~6.DLL|System.Xaml.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xaml.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.dll" Component_="Microsoft.Extensions.Logging.Abstractions.dll" FileName="MICROS~3.DLL|Microsoft.Extensions.Logging.Abstractions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll" SelfReg="false"/>
+    <ROW File="K4os.Compression.LZ4.Streams.dll" Component_="K4os.Compression.LZ4.Streams.dll" FileName="K4OSCO~2.DLL|K4os.Compression.LZ4.Streams.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll" SelfReg="false"/>
+    <ROW File="K4os.Hash.xxHash.dll" Component_="K4os.Hash.xxHash.dll" FileName="K4OSHA~1.DLL|K4os.Hash.xxHash.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.AsyncInterfaces.dll" Component_="Microsoft.Bcl.AsyncInterfaces.dll" FileName="MICROS~4.DLL|Microsoft.Bcl.AsyncInterfaces.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll" SelfReg="false"/>
+    <ROW File="MySqlBackup.dll" Component_="MySqlBackup.dll" FileName="MYSQLB~1.DLL|MySqlBackup.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\MySqlBackup.NET.2.3.8\lib\netstandard2.0\MySqlBackup.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Office.Interop.Excel.dll" Component_="Microsoft.Office.Interop.Excel.dll" FileName="MICROS~5.DLL|Microsoft.Office.Interop.Excel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll" SelfReg="false"/>
+    <ROW File="PresentationFramework.dll" Component_="PresentationFramework.dll" FileName="PRESEN~2.DLL|PresentationFramework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationFramework.dll" SelfReg="false"/>
+    <ROW File="ZstdSharp.dll" Component_="ZstdSharp.dll" FileName="ZSTDSH~1.DLL|ZstdSharp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll" SelfReg="false"/>
+    <ROW File="RBush.dll" Component_="RBush.dll" FileName="RBush.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\RBush.4.0.0\lib\net47\RBush.dll" SelfReg="false"/>
+    <ROW File="System.Buffers.dll" Component_="System.Buffers.dll" FileName="SYSTEM~7.DLL|System.Buffers.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll" SelfReg="false"/>
+    <ROW File="System.Configuration.ConfigurationManager.dll" Component_="System.Configuration.ConfigurationManager.dll" FileName="SYSTEM~8.DLL|System.Configuration.ConfigurationManager.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll" SelfReg="false"/>
+    <ROW File="System.Configuration.dll" Component_="System.Configuration.dll" FileName="SYSTEM~9.DLL|System.Configuration.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.dll" SelfReg="false"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTE~10.DLL|System.Data.DataSetExtensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" SelfReg="false"/>
+    <ROW File="System.Data.SqlXml.dll" Component_="System.Data.SqlXml.dll" FileName="SYSTE~11.DLL|System.Data.SqlXml.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.SqlXml.dll" SelfReg="false"/>
+    <ROW File="System.Net.Http.dll" Component_="System.Net.Http.dll" FileName="SYSTE~12.DLL|System.Net.Http.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTE~13.DLL|System.Deployment.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll" SelfReg="false"/>
+    <ROW File="System.Design.dll" Component_="System.Design.dll" FileName="SYSTE~14.DLL|System.Design.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Design.dll" SelfReg="false"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTE~15.DLL|System.Drawing.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" SelfReg="false"/>
+    <ROW File="System.Management.dll" Component_="System.Management.dll" FileName="SYSTE~16.DLL|System.Management.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Management.dll" SelfReg="false"/>
+    <ROW File="System.Memory.dll" Component_="System.Memory.dll" FileName="SYSTE~17.DLL|System.Memory.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll" SelfReg="false"/>
+    <ROW File="System.Numerics.Vectors.dll" Component_="System.Numerics.Vectors.dll" FileName="SYSTE~18.DLL|System.Numerics.Vectors.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll" SelfReg="false"/>
+    <ROW File="System.Runtime.CompilerServices.Unsafe.dll" Component_="System.Runtime.CompilerServices.Unsafe.dll" FileName="SYSTE~19.DLL|System.Runtime.CompilerServices.Unsafe.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll" SelfReg="false"/>
+    <ROW File="System.Threading.Tasks.Extensions.dll" Component_="System.Threading.Tasks.Extensions.dll" FileName="SYSTE~20.DLL|System.Threading.Tasks.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll" SelfReg="false"/>
+    <ROW File="System.Transactions.dll" Component_="System.Transactions.dll" FileName="SYSTE~21.DLL|System.Transactions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Transactions.dll" SelfReg="false"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTE~22.DLL|System.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTE~23.DLL|System.Xml.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" SelfReg="false"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTE~24.DLL|System.Xml.Linq.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" SelfReg="false"/>
+    <ROW File="WindowsBase.dll" Component_="WindowsBase.dll" FileName="WINDOW~1.DLL|WindowsBase.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\WindowsBase.dll" SelfReg="false"/>
+    <ROW File="netstandard.dll" Component_="netstandard.dll" FileName="NETSTA~1.DLL|netstandard.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\netstandard.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualBasic.dll" Component_="Microsoft.VisualBasic.dll" FileName="MICROS~6.DLL|Microsoft.VisualBasic.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.VisualBasic.dll" SelfReg="false"/>
+    <ROW File="CapstoneProject.xml" Component_="CapstoneProject.exe.config" FileName="CAPSTO~1.XML|Capstone Project.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Capstone Project.xml" SelfReg="false"/>
+    <ROW File="CapstoneProject.pdb" Component_="CapstoneProject.exe" FileName="CAPSTO~1.PDB|Capstone Project.pdb" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Capstone Project.pdb" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="AnyCPU_Debug" BuildName="AnyCPU_Debug" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="LaunchApp"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuTransition.dll"/>
+    <ROW Feature_="MainFeature" Component_="CapstoneProject.exe"/>
+    <ROW Feature_="MainFeature" Component_="BouncyCastle.Cryptography.dll"/>
+    <ROW Feature_="MainFeature" Component_="CapstoneProject.exe.config"/>
+    <ROW Feature_="MainFeature" Component_="AForge.Video.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuGroupBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuDatePicker.dll"/>
+    <ROW Feature_="MainFeature" Component_="SixLabors.Fonts.dll"/>
+    <ROW Feature_="MainFeature" Component_="AForge.Video.DirectShow.dll"/>
+    <ROW Feature_="MainFeature" Component_="AForge.Imaging.dll"/>
+    <ROW Feature_="MainFeature" Component_="AForge.Math.dll"/>
+    <ROW Feature_="MainFeature" Component_="AForge.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuShapes.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.Licensing.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Bcl.HashCode.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuFormDock.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuDataGridView.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Numerics.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuLabel.dll"/>
+    <ROW Feature_="MainFeature" Component_="ExcelNumberFormat.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuPanel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuPictureBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="MySql.Data.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuProgressBar.dll"/>
+    <ROW Feature_="MainFeature" Component_="MySqlConnector.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuShadowPanel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuSlider.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Feature_="MainFeature" Component_="FontAwesome.Sharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.IO.Pipelines.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu.UI.WinForms.BunifuTextbox.dll"/>
+    <ROW Feature_="MainFeature" Component_="Bunifu_UI_v1.52.dll"/>
+    <ROW Feature_="MainFeature" Component_="K4os.Compression.LZ4.dll"/>
+    <ROW Feature_="MainFeature" Component_="ClosedXML.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.dll"/>
+    <ROW Feature_="MainFeature" Component_="ClosedXML.Parser.dll"/>
+    <ROW Feature_="MainFeature" Component_="DocumentFormat.OpenXml.dll"/>
+    <ROW Feature_="MainFeature" Component_="DocumentFormat.OpenXml.Framework.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Protobuf.dll"/>
+    <ROW Feature_="MainFeature" Component_="PresentationCore.dll"/>
+    <ROW Feature_="MainFeature" Component_="Guna.UI.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xaml.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Feature_="MainFeature" Component_="K4os.Compression.LZ4.Streams.dll"/>
+    <ROW Feature_="MainFeature" Component_="K4os.Hash.xxHash.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Feature_="MainFeature" Component_="MySqlBackup.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Office.Interop.Excel.dll"/>
+    <ROW Feature_="MainFeature" Component_="PresentationFramework.dll"/>
+    <ROW Feature_="MainFeature" Component_="ZstdSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="RBush.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Buffers.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Configuration.ConfigurationManager.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Configuration.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.DataSetExtensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Data.SqlXml.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Net.Http.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Deployment.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Design.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Drawing.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Management.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Memory.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Numerics.Vectors.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Threading.Tasks.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Transactions.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xml.dll"/>
+    <ROW Feature_="MainFeature" Component_="System.Xml.Linq.dll"/>
+    <ROW Feature_="MainFeature" Component_="WindowsBase.dll"/>
+    <ROW Feature_="MainFeature" Component_="netstandard.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualBasic.dll"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="AnyCPU_Debug"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="AnyCPU_Debug"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="AnyCPU_Debug"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="AnyCPU_Debug"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="AnyCPU_Debug"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="GymXFit_1.0.exe" Directory_="SHORTCUTDIR" Name="GYMXFI~1.EXE|GymXFit_1.0.exe" Component_="CapstoneProject.exe" Target="[#CapstoneProject.exe]" Description="GymXFit_1.0.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="GymXFit_1.0.exe_1" Directory_="DesktopFolder" Name="GYMXFI~1.EXE|GymXFit_1.0.exe" Component_="CapstoneProject.exe" Target="[#CapstoneProject.exe]" Description="GymXFit_1.0.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,545 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|c:\\new folder (2)\\gymxfit_v5.0\\gymxfit-finalboss\\capstone project\\forms\\inventory\\stock\\stockentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockadjustment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockadjustment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\sales history.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\sales history.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\sales history.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\sales history.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockhistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockadjustment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockadjustment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockadjustmenthistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockadjustmenthistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\inventory\\stock\\stockadjustmenthistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\inventory\\stock\\stockadjustmenthistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\add payment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\add payment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\sales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\sales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\activitylogs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\activitylogs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\renewalform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\renewalform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\activitylogs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\activitylogs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\sales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\sales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\forgot password\\forgotpassword.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\forgot password\\forgotpassword.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\account forms\\account forms.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\account forms\\account forms.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\account forms\\account forms.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\account forms\\account forms.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\accounts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\member registration form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\member registration form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\cancelform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\cancelform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\cancelform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\cancelform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\cancellation form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\cancellation form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\reports.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\reports.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\reports.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\reports.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\member registration form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\member registration form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\renewalform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\renewalform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\capstone project\\forms\\add payment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}|Capstone Project\\Capstone Project.vbproj|solutionrelative:capstone project\\forms\\add payment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add Payment.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Add Payment.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Add Payment.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Add Payment.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Add Payment.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-10T23:45:43.216Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockHistory.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:18:58.312Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockEntry.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:18:52.539Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockAdjustment.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:36:11.418Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sales History.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:03:58.185Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockEntry.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockEntry.vb",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAAAP4BAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T10:17:09.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sales History.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\Sales History.vb",
+              "ViewState": "AgIAAAECAAAAAAAAAAAAAFABAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:04:30.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockHistory.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockHistory.vb",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAAAFcBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T12:09:06.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockAdjustment.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustment.vb",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0oAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:36:27.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockAdjustmentHistory.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:18:34.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StockAdjustmentHistory.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Inventory\\Stock\\StockAdjustmentHistory.vb",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAG4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T11:58:14.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "sales.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\sales.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\sales.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\sales.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\sales.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:14:40.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "activitylogs.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\activitylogs.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\activitylogs.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\activitylogs.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\activitylogs.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T07:04:21.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RenewalForm.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\RenewalForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\RenewalForm.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\RenewalForm.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\RenewalForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T07:22:51.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "activitylogs.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\activitylogs.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\activitylogs.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\activitylogs.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\activitylogs.vb",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAIEBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T07:04:26.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "sales.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\sales.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\sales.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\sales.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\sales.vb",
+              "ViewState": "AgIAAKsCAAAAAAAAAADwv7wCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:14:43.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ForgotPassword.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Forgot Password\\ForgotPassword.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Forgot Password\\ForgotPassword.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Forgot Password\\ForgotPassword.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Forgot Password\\ForgotPassword.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:02:56.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Account Forms.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Account Forms\\Account Forms.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Account Forms\\Account Forms.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Account Forms\\Account Forms.vb",
+              "RelativeToolTip": "Capstone Project\\Account Forms\\Account Forms.vb",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:02:46.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account Forms.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Account Forms\\Account Forms.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Account Forms\\Account Forms.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Account Forms\\Account Forms.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Account Forms\\Account Forms.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:02:42.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "accounts.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\accounts.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\accounts.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\accounts.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\accounts.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:02:27.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "accounts.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\accounts.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\accounts.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\accounts.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\accounts.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-16T07:02:21.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CancelForm.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\CancelForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\CancelForm.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\CancelForm.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\CancelForm.vb",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:25:59.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CancelForm.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\CancelForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\CancelForm.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\CancelForm.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\CancelForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:25:57.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Member Registration Form.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Member Registration Form.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Member Registration Form.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Member Registration Form.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\Member Registration Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T04:57:07.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "reports.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\reports.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\reports.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\reports.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\reports.vb",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:13:58.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "reports.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\reports.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\reports.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\reports.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Forms\\reports.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:13:48.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Cancellation Form.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Cancellation Form.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Cancellation Form.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Cancellation Form.vb [Design]",
+              "RelativeToolTip": "Capstone Project\\Cancellation Form.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-14T02:13:28.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainForm.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\MainForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\MainForm.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\MainForm.vb",
+              "RelativeToolTip": "Capstone Project\\MainForm.vb",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T05:19:46.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainForm.vb [Design]",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\MainForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\MainForm.vb",
+              "ToolTip": "C:\\Users\\markj\\Videos\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\MainForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\Users\\markj\\Videos\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\MainForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T05:19:45.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Member Registration Form.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Member Registration Form.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Member Registration Form.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Member Registration Form.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Member Registration Form.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwKMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T04:57:09.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Add Payment.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Add Payment.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\Add Payment.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\Add Payment.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\Add Payment.vb",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAEwJwBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T07:07:55.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RenewalForm.vb",
+              "DocumentMoniker": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\RenewalForm.vb",
+              "RelativeDocumentMoniker": "Capstone Project\\Forms\\RenewalForm.vb",
+              "ToolTip": "C:\\New folder (2)\\GymXFit_V5.0\\GymXFit-FinalBoss\\Capstone Project\\Forms\\RenewalForm.vb",
+              "RelativeToolTip": "Capstone Project\\Forms\\RenewalForm.vb",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAnwMMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-13T07:25:00.863Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

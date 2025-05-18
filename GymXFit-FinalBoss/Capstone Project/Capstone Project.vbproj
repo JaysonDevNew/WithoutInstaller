@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{037E1319-7E63-49F1-9DF3-48ECB2F37C4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Capstone_Project.LoginForm</StartupObject>
+    <RootNamespace>Capstone_Project</RootNamespace>
+    <AssemblyName>Capstone Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Capstone Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Capstone Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\..\Downloads\.net frameworks\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\Downloads\.net frameworks\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.104.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.104.2\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.1.2.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.1.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.1.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\Downloads\.net frameworks\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.1.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.3.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.NET.2.3.8\lib\netstandard2.0\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlConnector.2.4.0\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlXml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdSharp, Version=0.8.0.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account Forms\Account Forms.Designer.vb">
+      <DependentUpon>Account Forms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Account Forms\Account Forms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancellation Form.Designer.vb">
+      <DependentUpon>Cancellation Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cancellation Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database Connection.vb" />
+    <Compile Include="Forms\accounts.Designer.vb">
+      <DependentUpon>accounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\accounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\activitylogs.Designer.vb">
+      <DependentUpon>activitylogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\activitylogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Add Payment.Designer.vb">
+      <DependentUpon>Add Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Add Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddMaintenance.Designer.vb">
+      <DependentUpon>AddMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\backup&amp;restore.Designer.vb">
+      <DependentUpon>backup&amp;restore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\backup&amp;restore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CancelForm.Designer.vb">
+      <DependentUpon>CancelForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CancelForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\equipment.Designer.vb">
+      <DependentUpon>equipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Forgot Password\ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Forgot Password\ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\inventory.Designer.vb">
+      <DependentUpon>inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\MaintenanceForm.Designer.vb">
+      <DependentUpon>MaintenanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\MaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddBrand.Designer.vb">
+      <DependentUpon>AddBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddCategory.Designer.vb">
+      <DependentUpon>AddCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddProductName.Designer.vb">
+      <DependentUpon>AddProductName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Maintenance\AddProductName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\ProductForm.Designer.vb">
+      <DependentUpon>ProductForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\ProductForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Product\AddProductListForm.Designer.vb">
+      <DependentUpon>AddProductListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Product\AddProductListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\Sales History.Designer.vb">
+      <DependentUpon>Sales History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\Sales History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockAdjustment.Designer.vb">
+      <DependentUpon>StockAdjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockAdjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockAdjustmentHistory.Designer.vb">
+      <DependentUpon>StockAdjustmentHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockAdjustmentHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockEntry.Designer.vb">
+      <DependentUpon>StockEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockHistory.Designer.vb">
+      <DependentUpon>StockHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory\Stock\StockHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Member Edit Form.Designer.vb">
+      <DependentUpon>Member Edit Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Member Edit Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Member Registration Form.Designer.vb">
+      <DependentUpon>Member Registration Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Member Registration Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Member View Form.Designer.vb">
+      <DependentUpon>Member View Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Member View Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\membership.Designer.vb">
+      <DependentUpon>membership.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\membership.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\payment.Designer.vb">
+      <DependentUpon>payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\maintenance.Designer.vb">
+      <DependentUpon>maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RenewalForm.Designer.vb">
+      <DependentUpon>RenewalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RenewalForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\reports.Designer.vb">
+      <DependentUpon>reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sales.Designer.vb">
+      <DependentUpon>sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SessionForm.Designer.vb">
+      <DependentUpon>SessionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SessionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Webcam Form.Designer.vb">
+      <DependentUpon>Webcam Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Webcam Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notifications\LoadingScreen.Designer.vb">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications\LoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Account Forms\Account Forms.resx">
+      <DependentUpon>Account Forms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancellation Form.resx">
+      <DependentUpon>Cancellation Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\accounts.resx">
+      <DependentUpon>accounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\activitylogs.resx">
+      <DependentUpon>activitylogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Add Payment.resx">
+      <DependentUpon>Add Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddMaintenance.resx">
+      <DependentUpon>AddMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\backup&amp;restore.resx">
+      <DependentUpon>backup&amp;restore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CancelForm.resx">
+      <DependentUpon>CancelForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\equipment.resx">
+      <DependentUpon>equipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Forgot Password\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\inventory.resx">
+      <DependentUpon>inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\MaintenanceForm.resx">
+      <DependentUpon>MaintenanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Maintenance\AddBrand.resx">
+      <DependentUpon>AddBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Maintenance\AddCategory.resx">
+      <DependentUpon>AddCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Maintenance\AddProductName.resx">
+      <DependentUpon>AddProductName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\ProductForm.resx">
+      <DependentUpon>ProductForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Product\AddProductListForm.resx">
+      <DependentUpon>AddProductListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Stock\Sales History.resx">
+      <DependentUpon>Sales History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Stock\StockAdjustment.resx">
+      <DependentUpon>StockAdjustment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Stock\StockAdjustmentHistory.resx">
+      <DependentUpon>StockAdjustmentHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Stock\StockEntry.resx">
+      <DependentUpon>StockEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventory\Stock\StockHistory.resx">
+      <DependentUpon>StockHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Member Edit Form.resx">
+      <DependentUpon>Member Edit Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Member Registration Form.resx">
+      <DependentUpon>Member Registration Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Member View Form.resx">
+      <DependentUpon>Member View Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\membership.resx">
+      <DependentUpon>membership.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\payment.resx">
+      <DependentUpon>payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\maintenance.resx">
+      <DependentUpon>maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RenewalForm.resx">
+      <DependentUpon>RenewalForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\reports.resx">
+      <DependentUpon>reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sales.resx">
+      <DependentUpon>sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SessionForm.resx">
+      <DependentUpon>SessionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Webcam Form.resx">
+      <DependentUpon>Webcam Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notifications\LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\bank_card_back_side_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\checkout_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\dashboard_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\dashboard_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\data_configuration_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\gender_neutral_user_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\graph_report_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\historical_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\loyalty_card_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\money_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\product_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\spiral_bound_booklet_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\membership.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymnast_1163072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gustomers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\members.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gxflogo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\icons8-password-64.png" />
+    <None Include="Resources\icons8-gym-96_white.png" />
+    <None Include="Resources\refresh-xxl.png" />
+    <None Include="Resources\delete icon.png" />
+    <None Include="Resources\pdelete.png" />
+    <None Include="Resources\pedit.png" />
+    <None Include="Resources\settle.png" />
+    <None Include="Resources\product_64px.png" />
+    <None Include="Resources\newtransac.png" />
+    <None Include="Resources\maintenance.png" />
+    <None Include="Resources\logout_rounded_left_filled_100px.png" />
+    <None Include="Resources\print_96px.png" />
+    <None Include="Resources\cancelicon.png" />
+    <None Include="Resources\editicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

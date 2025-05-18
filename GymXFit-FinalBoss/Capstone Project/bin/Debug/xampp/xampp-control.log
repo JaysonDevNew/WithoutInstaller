@@ -1,0 +1,271 @@
+7:03:39 pm  [main] 	Initializing Control Panel
+7:03:39 pm  [main] 	Windows Version:  Enterprise  64-bit
+7:03:39 pm  [main] 	XAMPP Version: 8.0.10
+7:03:39 pm  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+7:03:39 pm  [main] 	You are not running with administrator rights! This will work for
+7:03:39 pm  [main] 	most application stuff but whenever you do something with services
+7:03:39 pm  [main] 	there will be a security dialogue or things will break! So think 
+7:03:39 pm  [main] 	about running this application with administrator rights!
+7:03:39 pm  [main] 	XAMPP Installation Directory: "d:\xampp\"
+7:03:39 pm  [main] 	Checking for prerequisites
+7:03:40 pm  [main] 	All prerequisites found
+7:03:40 pm  [main] 	Initializing Modules
+7:03:40 pm  [main] 	The FileZilla module is disabled
+7:03:40 pm  [main] 	The Mercury module is disabled
+7:03:40 pm  [main] 	Starting Check-Timer
+7:03:40 pm  [main] 	Control Panel Ready
+7:03:42 pm  [Apache] 	Attempting to start Apache app...
+7:03:42 pm  [Apache] 	Status change detected: running
+7:03:43 pm  [mysql] 	Attempting to start MySQL app...
+7:03:44 pm  [mysql] 	Status change detected: running
+7:59:21 pm  [mysql] 	Attempting to stop MySQL app...
+7:59:21 pm  [Apache] 	Attempting to stop Apache (PID: 8308)
+7:59:21 pm  [Apache] 	Attempting to stop Apache (PID: 18500)
+7:59:21 pm  [Apache] 	Status change detected: stopped
+7:59:21 pm  [mysql] 	Status change detected: stopped
+7:59:22 pm  [main] 	Deinitializing Modules
+7:59:22 pm  [main] 	Deinitializing Control Panel
+
+8:26:52 pm  [main] 	Initializing Control Panel
+8:26:52 pm  [main] 	Windows Version:  Enterprise  64-bit
+8:26:52 pm  [main] 	XAMPP Version: 8.0.10
+8:26:52 pm  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+8:26:52 pm  [main] 	You are not running with administrator rights! This will work for
+8:26:52 pm  [main] 	most application stuff but whenever you do something with services
+8:26:52 pm  [main] 	there will be a security dialogue or things will break! So think 
+8:26:52 pm  [main] 	about running this application with administrator rights!
+8:26:52 pm  [main] 	XAMPP Installation Directory: "d:\xampp\"
+8:26:52 pm  [main] 	Checking for prerequisites
+8:26:52 pm  [main] 	All prerequisites found
+8:26:52 pm  [main] 	Initializing Modules
+8:26:52 pm  [main] 	The FileZilla module is disabled
+8:26:52 pm  [main] 	The Mercury module is disabled
+8:26:52 pm  [main] 	Starting Check-Timer
+8:26:52 pm  [main] 	Control Panel Ready
+8:26:53 pm  [Apache] 	Attempting to start Apache app...
+8:26:53 pm  [Apache] 	Status change detected: running
+8:26:53 pm  [mysql] 	Attempting to start MySQL app...
+8:26:54 pm  [mysql] 	Status change detected: running
+12:37:32 am  [mysql] 	Attempting to stop MySQL app...
+12:37:32 am  [mysql] 	Status change detected: stopped
+12:37:32 am  [Apache] 	Attempting to stop Apache (PID: 15524)
+12:37:32 am  [Apache] 	Attempting to stop Apache (PID: 5048)
+12:37:32 am  [Apache] 	Status change detected: stopped
+12:37:33 am  [main] 	Deinitializing Modules
+12:37:33 am  [main] 	Deinitializing Control Panel
+
+1:23:06 am  [main] 	Initializing Control Panel
+1:23:06 am  [main] 	Windows Version:  Enterprise  64-bit
+1:23:06 am  [main] 	XAMPP Version: 8.0.10
+1:23:06 am  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+1:23:06 am  [main] 	You are not running with administrator rights! This will work for
+1:23:06 am  [main] 	most application stuff but whenever you do something with services
+1:23:06 am  [main] 	there will be a security dialogue or things will break! So think 
+1:23:06 am  [main] 	about running this application with administrator rights!
+1:23:06 am  [main] 	XAMPP Installation Directory: "d:\xampp\"
+1:23:06 am  [main] 	Checking for prerequisites
+1:23:06 am  [main] 	All prerequisites found
+1:23:06 am  [main] 	Initializing Modules
+1:23:06 am  [main] 	The FileZilla module is disabled
+1:23:06 am  [main] 	The Mercury module is disabled
+1:23:06 am  [main] 	Starting Check-Timer
+1:23:06 am  [main] 	Control Panel Ready
+1:23:07 am  [mysql] 	Attempting to start MySQL app...
+1:23:07 am  [Apache] 	Attempting to start Apache app...
+1:23:08 am  [Apache] 	Status change detected: running
+1:23:08 am  [mysql] 	Status change detected: running
+10:42:08 am  [Apache] 	Attempting to stop Apache (PID: 24768)
+10:42:08 am  [Apache] 	Attempting to stop Apache (PID: 3404)
+10:42:08 am  [Apache] 	Status change detected: stopped
+10:42:12 am  [mysql] 	Attempting to stop MySQL app...
+10:42:13 am  [mysql] 	Status change detected: stopped
+10:42:14 am  [main] 	Deinitializing Modules
+10:42:14 am  [main] 	Deinitializing Control Panel
+
+12:54:39 am  [main] 	Initializing Control Panel
+12:54:39 am  [main] 	Windows Version:  Enterprise  64-bit
+12:54:39 am  [main] 	XAMPP Version: 8.0.10
+12:54:39 am  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:54:39 am  [main] 	You are not running with administrator rights! This will work for
+12:54:39 am  [main] 	most application stuff but whenever you do something with services
+12:54:39 am  [main] 	there will be a security dialogue or things will break! So think 
+12:54:39 am  [main] 	about running this application with administrator rights!
+12:54:39 am  [main] 	XAMPP Installation Directory: "d:\xampp\"
+12:54:39 am  [main] 	Checking for prerequisites
+12:54:41 am  [main] 	All prerequisites found
+12:54:41 am  [main] 	Initializing Modules
+12:54:41 am  [Apache] 	XAMPP Apache is already running on port 80
+12:54:41 am  [Apache] 	XAMPP Apache is already running on port 443
+12:54:41 am  [mysql] 	XAMPP MySQL is already running on port 3306
+12:54:41 am  [main] 	The FileZilla module is disabled
+12:54:41 am  [main] 	The Mercury module is disabled
+12:54:41 am  [main] 	Starting Check-Timer
+12:54:41 am  [main] 	Control Panel Ready
+1:09:13 am  [mysql] 	Attempting to stop MySQL app...
+1:09:14 am  [Apache] 	Attempting to stop Apache (PID: 6636)
+1:09:14 am  [Apache] 	Attempting to stop Apache (PID: 27572)
+1:09:14 am  [mysql] 	Status change detected: stopped
+1:09:14 am  [main] 	Deinitializing Modules
+1:09:14 am  [main] 	Deinitializing Control Panel
+
+10:33:42 am  [main] 	Initializing Control Panel
+10:33:42 am  [main] 	Windows Version:  Enterprise  64-bit
+10:33:42 am  [main] 	XAMPP Version: 8.0.10
+10:33:42 am  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+10:33:42 am  [main] 	You are not running with administrator rights! This will work for
+10:33:42 am  [main] 	most application stuff but whenever you do something with services
+10:33:42 am  [main] 	there will be a security dialogue or things will break! So think 
+10:33:42 am  [main] 	about running this application with administrator rights!
+10:33:42 am  [main] 	XAMPP Installation Directory: "d:\xampp\"
+10:33:42 am  [main] 	Checking for prerequisites
+10:33:42 am  [main] 	All prerequisites found
+10:33:42 am  [main] 	Initializing Modules
+10:33:42 am  [main] 	The FileZilla module is disabled
+10:33:42 am  [main] 	The Mercury module is disabled
+10:33:42 am  [main] 	Starting Check-Timer
+10:33:42 am  [main] 	Control Panel Ready
+10:33:44 am  [Apache] 	Attempting to start Apache app...
+10:33:44 am  [Apache] 	Status change detected: running
+10:33:44 am  [mysql] 	Attempting to start MySQL app...
+10:33:45 am  [mysql] 	Status change detected: running
+10:46:11 am  [mysql] 	Attempting to stop MySQL app...
+10:46:11 am  [mysql] 	Status change detected: stopped
+10:46:11 am  [Apache] 	Attempting to stop Apache (PID: 28880)
+10:46:11 am  [Apache] 	Attempting to stop Apache (PID: 9032)
+10:46:12 am  [Apache] 	Status change detected: stopped
+10:46:12 am  [main] 	Deinitializing Modules
+10:46:12 am  [main] 	Deinitializing Control Panel
+
+12:50:20 pm  [main] 	Initializing Control Panel
+12:50:20 pm  [main] 	Windows Version:  Enterprise  64-bit
+12:50:20 pm  [main] 	XAMPP Version: 8.0.10
+12:50:20 pm  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:50:20 pm  [main] 	You are not running with administrator rights! This will work for
+12:50:20 pm  [main] 	most application stuff but whenever you do something with services
+12:50:20 pm  [main] 	there will be a security dialogue or things will break! So think 
+12:50:20 pm  [main] 	about running this application with administrator rights!
+12:50:20 pm  [main] 	XAMPP Installation Directory: "d:\xampp\"
+12:50:20 pm  [main] 	Checking for prerequisites
+12:50:22 pm  [main] 	All prerequisites found
+12:50:22 pm  [main] 	Initializing Modules
+12:50:22 pm  [main] 	The FileZilla module is disabled
+12:50:22 pm  [main] 	The Mercury module is disabled
+12:50:22 pm  [main] 	Starting Check-Timer
+12:50:22 pm  [main] 	Control Panel Ready
+12:50:23 pm  [Apache] 	Attempting to start Apache app...
+12:50:24 pm  [Apache] 	Status change detected: running
+12:50:24 pm  [mysql] 	Attempting to start MySQL app...
+12:50:25 pm  [mysql] 	Status change detected: running
+1:09:14 am  [mysql] 	Status change detected: stopped
+1:09:14 am  [mysql] 	Error: MySQL shutdown unexpectedly.
+1:09:14 am  [mysql] 	This may be due to a blocked port, missing dependencies, 
+1:09:14 am  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+1:09:14 am  [mysql] 	Press the Logs button to view error logs and check
+1:09:14 am  [mysql] 	the Windows Event Viewer for more clues
+1:09:14 am  [mysql] 	If you need more help, copy and post this
+1:09:14 am  [mysql] 	entire log window on the forums
+1:09:15 am  [Apache] 	Status change detected: stopped
+1:09:15 am  [Apache] 	Error: Apache shutdown unexpectedly.
+1:09:15 am  [Apache] 	This may be due to a blocked port, missing dependencies, 
+1:09:15 am  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+1:09:15 am  [Apache] 	Press the Logs button to view error logs and check
+1:09:15 am  [Apache] 	the Windows Event Viewer for more clues
+1:09:15 am  [Apache] 	If you need more help, copy and post this
+1:09:15 am  [Apache] 	entire log window on the forums
+10:33:44 am  [Apache] 	Status change detected: running
+10:33:45 am  [mysql] 	Status change detected: running
+10:46:11 am  [mysql] 	Status change detected: stopped
+10:46:11 am  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:46:11 am  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:46:11 am  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:46:11 am  [mysql] 	Press the Logs button to view error logs and check
+10:46:11 am  [mysql] 	the Windows Event Viewer for more clues
+10:46:11 am  [mysql] 	If you need more help, copy and post this
+10:46:11 am  [mysql] 	entire log window on the forums
+10:46:12 am  [Apache] 	Status change detected: stopped
+10:46:12 am  [Apache] 	Error: Apache shutdown unexpectedly.
+10:46:12 am  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:46:12 am  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:46:12 am  [Apache] 	Press the Logs button to view error logs and check
+10:46:12 am  [Apache] 	the Windows Event Viewer for more clues
+10:46:12 am  [Apache] 	If you need more help, copy and post this
+10:46:12 am  [Apache] 	entire log window on the forums
+11:25:21 am  [main] 	Deinitializing Modules
+11:25:21 am  [main] 	Deinitializing Control Panel
+
+3:50:07 PM  [main] 	Initializing Control Panel
+3:50:07 PM  [main] 	Windows Version:  Enterprise  64-bit
+3:50:07 PM  [main] 	XAMPP Version: 8.0.10
+3:50:07 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+3:50:07 PM  [main] 	Running with Administrator rights - good!
+3:50:07 PM  [main] 	XAMPP Installation Directory: "c:\users\markj\videos\gymxfit_v5.0\gymxfit-finalboss\capstone project\bin\debug\xampp\"
+3:50:07 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+3:50:07 PM  [main] 	Checking for prerequisites
+3:50:07 PM  [main] 	All prerequisites found
+3:50:07 PM  [main] 	Initializing Modules
+3:50:07 PM  [main] 	The FileZilla module is disabled
+3:50:07 PM  [main] 	The Mercury module is disabled
+3:50:07 PM  [main] 	Starting Check-Timer
+3:50:07 PM  [main] 	Control Panel Ready
+3:50:09 PM  [Apache] 	Attempting to start Apache app...
+3:50:09 PM  [Apache] 	Status change detected: running
+3:50:15 PM  [mysql] 	Attempting to start MySQL app...
+3:50:16 PM  [mysql] 	Status change detected: running
+3:50:16 PM  [mysql] 	Status change detected: stopped
+3:50:16 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+3:50:16 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+3:50:16 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+3:50:16 PM  [mysql] 	Press the Logs button to view error logs and check
+3:50:16 PM  [mysql] 	the Windows Event Viewer for more clues
+3:50:16 PM  [mysql] 	If you need more help, copy and post this
+3:50:16 PM  [mysql] 	entire log window on the forums
+3:50:20 PM  [mysql] 	Attempting to start MySQL app...
+3:50:20 PM  [mysql] 	Status change detected: running
+3:51:24 PM  [Apache] 	Attempting to stop Apache (PID: 6300)
+3:51:24 PM  [Apache] 	Attempting to stop Apache (PID: 6696)
+3:51:24 PM  [Apache] 	Status change detected: stopped
+3:51:25 PM  [mysql] 	Attempting to stop MySQL app...
+3:51:25 PM  [mysql] 	Status change detected: stopped
+3:51:28 PM  [main] 	Deinitializing Modules
+3:51:28 PM  [main] 	Deinitializing Control Panel
+
+3:49:53 PM  [main] 	Initializing Control Panel
+3:49:53 PM  [main] 	Windows Version:  Enterprise  64-bit
+3:49:53 PM  [main] 	XAMPP Version: 8.0.10
+3:49:53 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+3:49:53 PM  [main] 	You are not running with administrator rights! This will work for
+3:49:53 PM  [main] 	most application stuff but whenever you do something with services
+3:49:53 PM  [main] 	there will be a security dialogue or things will break! So think 
+3:49:53 PM  [main] 	about running this application with administrator rights!
+3:49:53 PM  [main] 	XAMPP Installation Directory: "c:\users\markj\videos\gymxfit_v5.0\gymxfit-finalboss\capstone project\bin\debug\xampp\"
+3:49:53 PM  [main] 	WARNING: Your install directory contains spaces.  This may break programs/scripts
+3:49:53 PM  [main] 	Checking for prerequisites
+3:49:53 PM  [main] 	All prerequisites found
+3:49:53 PM  [main] 	Initializing Modules
+3:49:53 PM  [main] 	The FileZilla module is disabled
+3:49:53 PM  [main] 	The Mercury module is disabled
+3:49:53 PM  [main] 	Starting Check-Timer
+3:49:53 PM  [main] 	Control Panel Ready
+3:51:11 PM  [Apache] 	Status change detected: running
+3:51:12 PM  [Apache] 	Status change detected: stopped
+3:51:12 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+3:51:12 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+3:51:12 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+3:51:12 PM  [Apache] 	Press the Logs button to view error logs and check
+3:51:12 PM  [Apache] 	the Windows Event Viewer for more clues
+3:51:12 PM  [Apache] 	If you need more help, copy and post this
+3:51:12 PM  [Apache] 	entire log window on the forums
+3:51:30 PM  [Apache] 	Status change detected: running
+3:51:30 PM  [mysql] 	Status change detected: running
+3:52:07 PM  [Apache] 	Status change detected: stopped
+3:52:07 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+3:52:07 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+3:52:07 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+3:52:07 PM  [Apache] 	Press the Logs button to view error logs and check
+3:52:07 PM  [Apache] 	the Windows Event Viewer for more clues
+3:52:07 PM  [Apache] 	If you need more help, copy and post this
+3:52:07 PM  [Apache] 	entire log window on the forums
+3:52:09 PM  [Apache] 	Status change detected: running
+3:52:20 PM  [main] 	Deinitializing Modules
+3:52:20 PM  [main] 	Deinitializing Control Panel
+

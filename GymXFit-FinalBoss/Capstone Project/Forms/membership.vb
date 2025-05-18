@@ -1,0 +1,356 @@
+﻿Imports System.ComponentModel
+Imports MySql.Data.MySqlClient
+
+Public Class membership
+    Private Sub membership_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LoadMembers()
+        UpdateCountMember()
+    End Sub
+
+    Public Sub RefreshGrid()
+        LoadMembers()
+        UpdateCountMember()
+    End Sub
+
+    Public Sub LoadMembers()
+        Try
+            If con.State = ConnectionState.Closed Then
+                openConn()
+            End If
+
+            Dim sql As String = "SELECT id, picture, rfid, first_name, middle_name, last_name, age, contact_no, 
+                             address, gender, member_since, emergency_contact, status 
+                             FROM tblmembers"
+            cmd = New MySqlCommand(sql, con)
+            dr = cmd.ExecuteReader()
+
+            dgvmembers.Rows.Clear()
+
+            While dr.Read()
+                ' Convert member_since to Date
+                Dim memberSinceDate As Date = Convert.ToDateTime(dr("member_since"))
+
+                ' Load member image
+                Dim img As Image = Nothing
+                If Not IsDBNull(dr("picture")) Then
+                    Try
+                        Dim imgData As Byte() = CType(dr("picture"), Byte())
+                        Using ms As New IO.MemoryStream(imgData)
+                            img = Image.FromStream(ms)
+                        End Using
+                    Catch ex As Exception
+                        img = My.Resources.account
+                    End Try
+                Else
+                    img = My.Resources.account
+                End If
+
+                ' Construct Full Name
+                Dim fullname As String = $"{dr("first_name")} {dr("middle_name")} {dr("last_name")}".Trim()
+
+                ' Add Data to DataGridView
+                Dim rowIndex As Integer = dgvmembers.Rows.Add(
+                img,
+                dr("rfid"),
+                fullname,
+                dr("age"),
+                dr("contact_no"),
+                dr("address"),
+                dr("gender"),
+                memberSinceDate.ToShortDateString(),
+                dr("emergency_contact"),
+                dr("status")
+            )
+
+                ' Change font color based on status
+                Dim statusCell As DataGridViewCell = dgvmembers.Rows(rowIndex).Cells("status") ' "status" should match your DataGridView column name
+                Select Case dr("status").ToString()
+                    Case "PENDING"
+                        statusCell.Style.ForeColor = Color.White
+                        statusCell.Style.BackColor = Color.FromArgb(253, 203, 110)
+                    Case "ACTIVE"
+                        statusCell.Style.ForeColor = Color.White
+                        statusCell.Style.BackColor = Color.FromArgb(85, 170, 85)
+                    Case "EXPIRED"
+                        statusCell.Style.ForeColor = Color.White
+                        statusCell.Style.BackColor = Color.FromArgb(187, 52, 17)
+                    Case "CANCELLED"
+                        statusCell.Style.ForeColor = Color.Gray
+                End Select
+            End While
+
+            dr.Close()
+            dgvmembers.ClearSelection()
+            dgvmembers.Refresh() ' Refresh the DataGridView
+
+        Catch ex As Exception
+            MessageBox.Show("Error loading data: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+        End Try
+    End Sub
+
+
+    ' Function to update member status in the database
+    Private Sub UpdateMemberStatus(memberID As String, newStatus As String)
+        Try
+            openConn()
+
+            Dim sql As String = "UPDATE tblmembers SET status = @status WHERE id = @id"
+            Dim cmd As New MySqlCommand(sql, con)
+            cmd.Parameters.AddWithValue("@status", newStatus)
+            cmd.Parameters.AddWithValue("@id", memberID)
+
+            cmd.ExecuteNonQuery()
+        Catch ex As Exception
+            MessageBox.Show("Error updating status: " & ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            con.Close()
+        End Try
+    End Sub
+
+
+    Private Sub btnnewmember_Click(sender As Object, e As EventArgs) Handles btnnewmember.Click
+        Dim addmemberform As New Member_Registration_Form(Me)
+        addmemberform.ShowDialog() ' Use addmemberform.Show() instead of ShowDialog() to prevent blocking the main form
+        addmemberform.txtRFID.Focus()
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub txtsearch_TextChanged_1(sender As Object, e As EventArgs) Handles txtsearch.TextChanged
+        Try
+            If con.State = ConnectionState.Closed Then
+                openConn()
+            End If
+
+            Dim sql As String = "SELECT picture, rfid, first_name, middle_name, last_name, age, contact_no, 
+                            address, gender, member_since, emergency_contact, status 
+                            FROM tblmembers 
+                            WHERE rfid LIKE @search OR 
+                                  CONCAT(first_name, ' ', middle_name, ' ', last_name) LIKE @search OR 
+                                  member_since LIKE @search OR 
+                                  status LIKE @search"
+
+            cmd = New MySqlCommand(sql, con)
+            cmd.Parameters.AddWithValue("@search", "%" & txtsearch.Text.Trim() & "%")
+            dr = cmd.ExecuteReader()
+
+            dgvmembers.Rows.Clear()
+
+            While dr.Read()
+                Dim img As Image = Nothing
+                If Not IsDBNull(dr("picture")) Then
+                    Try
+                        Dim imgData As Byte() = CType(dr("picture"), Byte())
+                        Using ms As New IO.MemoryStream(imgData)
+                            img = Image.FromStream(ms)
+                        End Using
+                    Catch ex As Exception
+                        img = My.Resources.account
+                    End Try
+                Else
+                    img = My.Resources.account
+                End If
+
+                Dim fullname As String = $"{dr("first_name")} {dr("middle_name")} {dr("last_name")}".Trim()
+
+                dgvmembers.Rows.Add(
+                img,
+                dr("rfid"),
+                fullname,
+                dr("age"),
+                dr("contact_no"),
+                dr("address"),
+                dr("gender"),
+                dr("member_since"),
+                dr("emergency_contact"),
+                dr("status")
+            )
+            End While
+
+            dgvmembers.ClearSelection()
+            dgvmembers.Refresh() ' Refresh the DataGridView
+
+        Catch ex As Exception
+            'MessageBox.Show("Error searching data: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If dr IsNot Nothing AndAlso Not dr.IsClosed Then
+                dr.Close()
+            End If
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+        End Try
+    End Sub
+
+    Private Sub dgvmembers_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvmembers.CellClick
+        Try
+            ' Ensure the row index is valid (to avoid clicking on the header row)
+            If e.RowIndex >= 0 Then
+                Dim dr As DataGridViewRow = dgvmembers.Rows(e.RowIndex)
+                Dim viewForm As New Member_View_Form ' Create an instance of the Member View Form
+
+                ' Retrieve and split the concatenated full name
+                Dim fullName As String = dr.Cells("fname").Value.ToString()
+                Dim nameParts() As String = fullName.Split(" "c) ' Splitting by space
+
+                Dim firstName As String = ""
+                Dim middleName As String = ""
+                Dim lastName As String = ""
+
+                ' Assign values based on parts count
+                If nameParts.Length = 1 Then
+                    firstName = nameParts(0)
+                ElseIf nameParts.Length = 2 Then
+                    firstName = nameParts(0)
+                    lastName = nameParts(1)
+                ElseIf nameParts.Length >= 3 Then
+                    firstName = nameParts(0)
+                    lastName = nameParts(nameParts.Length - 1)
+                    middleName = String.Join(" ", nameParts, 1, nameParts.Length - 2) ' Join middle names
+                End If
+
+                ' Populate the text fields in the Member View Form
+                With viewForm
+                    .txtRFID.Text = dr.Cells("rfid").Value.ToString()
+                    .txtfirstname.Text = firstName
+                    .txtmiddlename.Text = middleName
+                    .txtlastname.Text = lastName
+                    .txtaddress.Text = dr.Cells("address").Value.ToString()
+                    .txtage.Text = dr.Cells("age").Value.ToString()
+                    .txtcontact.Text = dr.Cells("contactno").Value.ToString()
+                    .txtemergency.Text = dr.Cells("emergency").Value.ToString()
+                    .txtgender.Text = dr.Cells("gender").Value.ToString()
+
+                    ' Set date value safely
+                    If Not IsDBNull(dr.Cells("membersince").Value) Then
+                        .dtmembersince.Value = Convert.ToDateTime(dr.Cells("membersince").Value)
+                    Else
+                        .dtmembersince.Value = DateTime.Now ' Default to current date if NULL
+                    End If
+
+                    ' Handle profile picture
+                    Dim img As Object = dr.Cells("picture").Value
+                    If img IsNot Nothing Then
+                        If TypeOf img Is Image Then
+                            ' If the column directly stores an Image object
+                            .memberpic.Image = CType(img, Image)
+                        ElseIf TypeOf img Is Byte() Then
+                            ' If the column stores a Byte Array (BLOB) from the database
+                            Dim imgBytes() As Byte = CType(img, Byte())
+                            Using ms As New IO.MemoryStream(imgBytes)
+                                .memberpic.Image = Image.FromStream(ms)
+                            End Using
+                        Else
+                            ' Set default image if the value is not valid
+                            .memberpic.Image = My.Resources.gymnast_1163072 ' Replace with your actual default image resource
+                        End If
+                    Else
+                        ' If the picture is NULL, set a default image
+                        .memberpic.Image = My.Resources.gymnast_1163072 ' Ensure default image is available in Resources
+                    End If
+
+                    ' Retrieve the status
+                    Dim memberStatus As String = dr.Cells("status").Value.ToString()
+                    .lblstatus.Text = memberStatus ' Display the status text in lblstatus
+
+                    ' Change pnlstatus color based on member status
+                    Select Case memberStatus
+                        Case "PENDING"
+                            .lblstatus.ForeColor = Color.White
+                            .pnlstatus.BackColor = Color.FromArgb(253, 203, 110)
+                        Case "ACTIVE"
+                            .pnlstatus.BackColor = Color.FromArgb(85, 170, 85)
+                            .lblstatus.ForeColor = Color.White
+                        Case "EXPIRED"
+                            .pnlstatus.BackColor = Color.FromArgb(255, 71, 25)
+                            .lblstatus.ForeColor = Color.White
+                        Case Else
+                            .pnlstatus.BackColor = Color.White ' Default color for unknown status
+                    End Select
+                End With
+
+                ' Show the Member View Form
+                viewForm.Show()
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub dgvmembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvmembers.CellContentClick
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Public Sub UpdateCountMember()
+        Try
+            If con.State = ConnectionState.Closed Then
+                openConn()
+            End If
+
+            ' Query to count all members based on their status
+            Dim sql As String = "SELECT status, COUNT(*) AS count FROM tblmembers GROUP BY status"
+            Dim cmd As New MySqlCommand(sql, con)
+            Dim dr As MySqlDataReader = cmd.ExecuteReader()
+
+            ' Reset labels to 0
+            lblpending.Text = "0"
+            lblactive.Text = "0"
+            lblexpired.Text = "0"
+
+            ' Loop through the results and update the labels
+            While dr.Read()
+                Select Case dr("status").ToString()
+                    Case "PENDING"
+                        lblpending.Text = dr("count").ToString()
+                    Case "ACTIVE"
+                        lblactive.Text = dr("count").ToString()
+                    Case "EXPIRED"
+                        lblexpired.Text = dr("count").ToString()
+                End Select
+            End While
+            dr.Close()
+        Catch ex As Exception
+            MessageBox.Show("Error updating member counts: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+    Private lastSortedColumn As DataGridViewColumn
+    Private lastSortDirection As ListSortDirection = ListSortDirection.Ascending
+
+    Private Sub dgvmembers_ColumnHeaderMouseClick(sender As Object, e As DataGridViewCellMouseEventArgs) Handles dgvmembers.ColumnHeaderMouseClick
+        Dim clickedColumn As DataGridViewColumn = dgvmembers.Columns(e.ColumnIndex)
+
+        If clickedColumn IsNot Nothing Then
+            ' Toggle sort direction if the same column is clicked
+            If lastSortedColumn Is clickedColumn Then
+                lastSortDirection = If(lastSortDirection = ListSortDirection.Ascending, ListSortDirection.Descending, ListSortDirection.Ascending)
+            Else
+                lastSortDirection = ListSortDirection.Ascending ' Default to ascending for a new column
+            End If
+
+            ' Perform sorting
+            dgvmembers.Sort(clickedColumn, lastSortDirection)
+
+            ' Store last sorted column
+            lastSortedColumn = clickedColumn
+        End If
+    End Sub
+
+End Class
